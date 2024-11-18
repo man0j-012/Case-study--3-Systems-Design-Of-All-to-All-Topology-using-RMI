@@ -1,0 +1,95 @@
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+search
+Enter the file name which you want to search: file1.txt
+Now Started Calling the query() from Leaf Node...
+#################################################
+VALID Peer providing the file with Peer ID is p01 under Super Peer :SP01 which is a Master Copy
+#################################################
+Enter Peer ID you wish to take the file from: p01
+File Downloading Successful.
+Display File file1.txt
+Updated Cached Table Entry after insertion (File download)
+file1.txt => [file1.txt, CC, cached_dir_P01, v01, p01, valid, 30]
+
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+search
+Enter the file name which you want to search: file1.txt
+Now Started Calling the query() from Leaf Node...
+#################################################
+VALID Peer providing the file with Peer ID is p01 under Super Peer :SP01 which is a Master Copy
+#################################################
+Enter Peer ID you wish to take the file from: p01
+File Downloading Successful.
+Display File file1.txt
+Updated Cached Table Entry after insertion (File download)
+file1.txt => [file1.txt, CC, cached_dir_P02, v01, p01, valid, 30]
+
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+edit
+Enter the file name which you want to Edit(Append): file1.txt
+Enter anything you want to append in this file: Good day, this is version 2.
+File edited Successfully.
+New Version Number for edited file : v02
+
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+search
+Enter the file name which you want to search: file1.txt
+Polling for file1.txt, checking for TTR expiration...
+Polling initiated for file: file1.txt
+Polling response from origin server: File is out of date.
+Marking file1.txt as invalid due to expired TTR and modification on origin server.
+Updated Cached Table Entry after Invalidation
+file1.txt => [file1.txt, CC, cached_dir_P02, v01, p01, invalid, 30]
+
+Polling response from origin server: File is out of date.
+Marking file1.txt as invalid due to expired TTR and modification on origin server.
+Updated Cached Table Entry after Invalidation
+file1.txt => [file1.txt, CC, cached_dir_P03, v01, p01, invalid, 30]
+
+Do you want to refresh file1.txt? (Yes/No)
+Yes
+Refreshing file1.txt...
+Now Started Calling the query() from Leaf Node...
+#################################################
+VALID Peer providing the file with Peer ID is p01 under Super Peer :SP01 which is a Master Copy
+#################################################
+Enter Peer ID you wish to take the file from: p01
+File Downloading Successful.
+Display File file1.txt
+Updated Cached Table Entry after insertion (File download)
+file1.txt => [file1.txt, CC, cached_dir_P02, v02, p01, valid, 30]
+
+Do you want to refresh file1.txt? (Yes/No)
+Yes
+Refreshing file1.txt...
+Now Started Calling the query() from Leaf Node...
+#################################################
+VALID Peer providing the file with Peer ID is p01 under Super Peer :SP01 which is a Master Copy
+#################################################
+Enter Peer ID you wish to take the file from: p01
+File Downloading Successful.
+Display File file1.txt
+Updated Cached Table Entry after insertion (File download)
+file1.txt => [file1.txt, CC, cached_dir_P03, v02, p01, valid, 30]
+
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+search
+Enter the file name which you want to search: file1.txt
+Now Started Calling the query() from Leaf Node...
+#################################################
+VALID Peer providing the file with Peer ID is p01 under Super Peer :SP01 which is a Master Copy
+VALID Peer providing the file with Peer ID is p02 under Super Peer :SP01 which is a Master Copy
+VALID Peer providing the file with Peer ID is p03 under Super Peer :SP01 which is a Master Copy
+#################################################
+Enter Peer ID you wish to take the file from: p02
+File Downloading Successful.
+Display File file1.txt
+Updated Cached Table Entry after insertion (File download)
+file1.txt => [file1.txt, CC, cached_dir_P01, v02, p02, valid, 30]
+
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+exit
+Press any key to continue . . .
+
+
+

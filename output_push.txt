@@ -1,0 +1,116 @@
+"SuperPeer is now Running. Please configure your settings."
+##################
+Enter the Super Peer ID.
+sp01
+Loaded 10 peer configurations.
+Loaded 10 superpeer configurations.
+Raw Line: #All_To_All_Topology and Linear Topology Properties : Peer_ID; Linear_Neighbour; All_Neighbours
+Raw Line: SP01;SP02;SP02,SP03,SP04,SP05,SP06,SP07,SP08,SP09,SP10
+Tokens: [SP01, SP02, SP02, SP03, SP04, SP05, SP06, SP07, SP08, SP09, SP10]
+Raw Line: SP02;SP03;SP01,SP03,SP04,SP05,SP06,SP07,SP08,SP09,SP10
+Tokens: [SP02, SP03, SP01, SP03, SP04, SP05, SP06, SP07, SP08, SP09, SP10]
+Raw Line: SP03;SP04;SP01,SP02,SP04,SP05,SP06,SP07,SP08,SP09,SP10
+Tokens: [SP03, SP04, SP01, SP02, SP04, SP05, SP06, SP07, SP08, SP09, SP10]
+Raw Line: SP04;SP05;SP01,SP02,SP03,SP05,SP06,SP07,SP08,SP09,SP10
+Tokens: [SP04, SP05, SP01, SP02, SP03, SP05, SP06, SP07, SP08, SP09, SP10]
+Raw Line: SP05;SP06;SP01,SP02,SP03,SP04,SP06,SP07,SP08,SP09,SP10
+Tokens: [SP05, SP06, SP01, SP02, SP03, SP04, SP06, SP07, SP08, SP09, SP10]
+Raw Line: SP06;SP07;SP01,SP02,SP03,SP04,SP05,SP07,SP08,SP09,SP10
+Tokens: [SP06, SP07, SP01, SP02, SP03, SP04, SP05, SP07, SP08, SP09, SP10]
+Raw Line: SP07;SP08;SP01,SP02,SP03,SP04,SP05,SP06,SP08,SP09,SP10
+Tokens: [SP07, SP08, SP01, SP02, SP03, SP04, SP05, SP06, SP08, SP09, SP10]
+Raw Line: SP08;SP09;SP01,SP02,SP03,SP04,SP05,SP06,SP07,SP09,SP10
+Tokens: [SP08, SP09, SP01, SP02, SP03, SP04, SP05, SP06, SP07, SP09, SP10]
+Raw Line: SP09;SP10;SP01,SP02,SP03,SP04,SP05,SP06,SP07,SP08,SP10
+Tokens: [SP09, SP10, SP01, SP02, SP03, SP04, SP05, SP06, SP07, SP08, SP10]
+Raw Line: SP10;SP01;SP01,SP02,SP03,SP04,SP05,SP06,SP07,SP08,SP09
+Tokens: [SP10, SP01, SP01, SP02, SP03, SP04, SP05, SP06, SP07, SP08, SP09]
+Loaded 10 topology configurations.
+Topology type: ALL
+Consistency mechanism: PUSH
+
+Peer is now Running. Please configure your settings.
+Enter Peer ID: p01
+Loaded 10 peer configurations.
+Loaded 10 superpeer configurations.
+Topology type: ALL
+Consistency mechanism: PUSH
+Registering details of file1.txt in Indexing Server
+Registering details of file10.txt in Indexing Server
+Registering details of file2.txt in Indexing Server
+...
+File registration complete for 10 files.
+
+Enter Peer ID: p01
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+edit
+Enter the file name which you want to Edit(Append): file1.txt
+Enter anything you want to append in this file: Good day, this is version 2.
+File edited Successfully.
+New Version Number for edited file : v02
+Send invalidate request to all nodes (PUSH)
+
+Broadcasting Invalidate Request for file1.txt to all peers
+
+Peer is now Running. Please configure your settings.
+Enter Peer ID: p02
+Loaded 10 peer configurations.
+Loaded 10 superpeer configurations.
+Topology type: ALL
+Consistency mechanism: PUSH
+Updated Cached Table Entry after Invalidation from Push
+file1.txt => [file1.txt, CC, cached_dir_P02, v01, p02, invalid, 30]
+
+Peer is now Running. Please configure your settings.
+Enter Peer ID: p03
+Loaded 10 peer configurations.
+Loaded 10 superpeer configurations.
+Topology type: ALL
+Consistency mechanism: PUSH
+Updated Cached Table Entry after Invalidation from Push
+file1.txt => [file1.txt, CC, cached_dir_P03, v01, p03, invalid, 30]
+
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+search
+Enter the file name which you want to search: file1.txt
+Now Started Calling the query() from Leaf Node...
+#################################################
+VALID Peer providing the file with Peer ID is p01 under Super Peer :SP01 which is a Master Copy
+#################################################
+Enter Peer ID you wish to take the file from: p01
+File Downloading Successful.
+Display File file1.txt
+Updated Cached Table Entry after insertion (File download)
+file1.txt => [file1.txt, CC, cached_dir_P02, v02, p01, valid, 30]
+
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+search
+Enter the file name which you want to search: file1.txt
+Now Started Calling the query() from Leaf Node...
+#################################################
+VALID Peer providing the file with Peer ID is p01 under Super Peer :SP01 which is a Master Copy
+#################################################
+Enter Peer ID you wish to take the file from: p01
+File Downloading Successful.
+Display File file1.txt
+Updated Cached Table Entry after insertion (File download)
+file1.txt => [file1.txt, CC, cached_dir_P03, v02, p01, valid, 30]
+
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+search
+Enter the file name which you want to search: file1.txt
+Now Started Calling the query() from Leaf Node...
+#################################################
+VALID Peer providing the file with Peer ID is p01 under Super Peer :SP01 which is a Master Copy
+VALID Peer providing the file with Peer ID is p02 under Super Peer :SP01 which is a Master Copy
+VALID Peer providing the file with Peer ID is p03 under Super Peer :SP01 which is a Master Copy
+#################################################
+Enter Peer ID you wish to take the file from: p02
+File Downloading Successful.
+Display File file1.txt
+Updated Cached Table Entry after insertion (File download)
+file1.txt => [file1.txt, CC, cached_dir_P01, v02, p02, valid, 30]
+Do you want to Search a File, Delete File, Edit file or Exit? (Search/Delete/Edit/Exit)
+exit
+Press any key to continue . . .
+Broadcast Invalidate Request for file1.txt completed successfully.

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d37f6525-0744-461c-be03-54ada30c0444" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS485_PA3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/peer_config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/topology.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/AvgRespFileSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/GetPeerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/GetSuperPeerDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/GetTopologyDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/LeafNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/LeafNodeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/LeafNodeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/MultiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/SetupConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/SuperPeer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/SuperPeerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gfiletransfer/SuperPeerInterface.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2osWuKydNNmEuZrkIpBMxH3NsQy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SuperPeer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.gfiletransfer.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dattu/Downloads/javax.ws.rs-api-2.1.1.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/dattu/CS485_PA3/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dattu\CS485_PA3\src\com\gfiletransfer" />
+      <recent name="C:\Users\dattu\CS485_PA3\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SuperPeer">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfiletransfer.Main" />
+      <module name="CS485_PA3" />
+      <option name="VM_PARAMETERS" value="--enable-preview " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperPeer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfiletransfer.SuperPeer" />
+      <module name="CS485_PA3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gfiletransfer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.gfiletransfer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gfiletransfer.Main" />
+      <module name="CS485_PA3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gfiletransfer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SuperPeer" />
+      <item itemvalue="Application.com.gfiletransfer.Main" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SuperPeer" />
+        <item itemvalue="Application.com.gfiletransfer.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d37f6525-0744-461c-be03-54ada30c0444" name="Changes" comment="" />
+      <created>1731658985049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731658985049</updated>
+      <workItem from="1731658986019" duration="11363000" />
+      <workItem from="1731697458897" duration="530000" />
+      <workItem from="1731697997998" duration="308000" />
+      <workItem from="1731698314153" duration="9476000" />
+      <workItem from="1731709264743" duration="5207000" />
+      <workItem from="1731714524454" duration="122000" />
+      <workItem from="1731715148059" duration="9939000" />
+      <workItem from="1731727623935" duration="312000" />
+      <workItem from="1731728204994" duration="7000" />
+      <workItem from="1731729163548" duration="1059000" />
+      <workItem from="1731731130367" duration="1594000" />
+      <workItem from="1731734369912" duration="3264000" />
+      <workItem from="1731739096428" duration="588000" />
+      <workItem from="1731740242762" duration="433000" />
+      <workItem from="1731745729023" duration="149000" />
+      <workItem from="1731784901001" duration="2240000" />
+      <workItem from="1731787504776" duration="1040000" />
+      <workItem from="1731789254522" duration="369000" />
+      <workItem from="1731789892806" duration="297000" />
+      <workItem from="1731790225573" duration="22000" />
+      <workItem from="1731790606338" duration="2411000" />
+      <workItem from="1731793716468" duration="29000" />
+      <workItem from="1731794705293" duration="6224000" />
+      <workItem from="1731806982520" duration="7255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

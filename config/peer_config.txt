@@ -1,0 +1,10 @@
+P01,4001,master_dir_P01,cached_dir_P01,SP01
+P02,4002,master_dir_P02,cached_dir_P02,SP01
+P03,4003,master_dir_P03,cached_dir_P03,SP01
+P04,4004,master_dir_P04,cached_dir_P04,SP02
+P05,4005,master_dir_P05,cached_dir_P05,SP02
+P06,4006,master_dir_P06,cached_dir_P06,SP02
+P07,4007,master_dir_P07,cached_dir_P07,SP03
+P08,4008,master_dir_P08,cached_dir_P08,SP03
+P09,4009,master_dir_P09,cached_dir_P09,SP03
+P10,4010,master_dir_P10,cached_dir_P10,SP04

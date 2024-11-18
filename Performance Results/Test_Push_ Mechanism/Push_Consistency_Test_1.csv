@@ -1,0 +1,7 @@
+Metric,Value
+Total_Queries_Issued,30
+Invalid_Queries,2
+Percentage of Invalid Queries,670.00%
+Total_Invalidation_Messages ,10
+Average_Time_to_Invalidate,120
+Bandwidth_Used ,4096
