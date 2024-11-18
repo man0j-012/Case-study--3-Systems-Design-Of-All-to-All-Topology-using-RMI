@@ -1,6 +1,10 @@
 ## Overview
 
-This project implements a hierarchical Peer-to-Peer (P2P) file sharing system inspired by the Gnutella architecture. The system is designed to facilitate efficient and reliable file distribution across a decentralized network using **Java Remote Method Invocation (RMI)**. It ensures strong file consistency with both **push-based** and **pull-based** mechanisms.
+This project implements a hierarchical Peer-to-Peer (P2P) file-sharing system inspired by the Gnutella architecture. The system is designed to facilitate efficient and reliable file distribution across a decentralized network using **Java Remote Method Invocation (RMI)**. It ensures strong file consistency with both **push-based** and **pull-based** mechanisms.
+
+Why Use RMI?
+In traditional RPC, only functions or procedures are invoked. With RMI, methods on remote objects can be called, making it more suitable for distributed systems that use object-oriented programming.
+
 
 ## Features
 
@@ -78,6 +82,9 @@ Bandwidth usage
 Consistency validation results
 
 Future Enhancements
+
 Dynamic topology handling (peer join/leave mechanisms).
+
 Enhanced fault tolerance (redundant SuperPeers and heartbeat mechanisms).
+
 Security improvements for file transfers.
